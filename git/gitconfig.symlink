@@ -5,15 +5,29 @@
         protocol = https
 [alias]
         co = checkout
+        branch-name = "!git rev-parse --abbrev-ref HEAD"
         promote = !$ZSH/bin/git-promote
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
 [color]
+        ui = always
+        branch = auto
         diff = auto
         status = auto
-        branch = auto
-        ui = true
+[color "branch"]
+        current = yellow reverse
+        local = yellow
+        remote = green
+[color "diff"]
+        meta = yellow bold
+        frag = magenta bold
+        old = red bold
+        new = green bold
+[color "status"]
+        added = yellow
+        changed = green
+        untracked = cyan
 [core]
         excludesfile = ~/.gitignore
         editor = vim

@@ -14,11 +14,15 @@
       beautify_on_save: true
     nginx:
       beautify_on_save: true
+    python:
+      default_beautifier: "yapf"
     ruby:
       default_beautifier: "Ruby Beautify"
   "autocomplete-modules":
     babelPluginModuleResolver: true
     webpack: true
+  "autocomplete-python":
+    useKite: false
   core:
     closeDeletedFileTabs: true
     closeEmptyWindows: false

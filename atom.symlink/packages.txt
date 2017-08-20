@@ -1,0 +1,6 @@
+atom-beautify
+autocomplete-python
+file-icons
+linter
+linter-pylint
+python-tools
