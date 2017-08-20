@@ -28,6 +28,9 @@ do
   source $file
 done
 
+# install virtualenv
+source $HOME/bin/virtualenvwrapper.sh
+
 # initialize autocomplete here, otherwise functions won't be loaded
 autoload -U compinit
 compinit
