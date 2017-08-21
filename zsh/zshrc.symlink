@@ -29,6 +29,7 @@ do
 done
 
 # install virtualenv
+export WORKON_HOME=~/Envs
 source $HOME/bin/virtualenvwrapper.sh
 
 # initialize autocomplete here, otherwise functions won't be loaded
