@@ -19,6 +19,7 @@ brew 'unrar'
 brew 'wget'
 
 cask '1password'
+cask 'alfred'
 cask 'atom'
 cask 'dropbox'
 cask 'firefox'
