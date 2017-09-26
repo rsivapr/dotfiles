@@ -10,8 +10,6 @@ pip install --upgrade pipenv
 pip install --upgrade virtualenv
 pip install --upgrade ansible
 pip install --upgrade awscli
-pip install --upgrade boto
-pip install --upgrade boto3
 pip install --upgrade flake8
 pip install --upgrade virtualenvwrapper
 pip install --upgrade yapf
