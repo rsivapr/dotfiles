@@ -1,8 +1,6 @@
 source python/path.sh
 eval "$(pyenv init -)"
 
-pyenv update
-
 pyenv install -s 2.7.11
 pyenv install -s 3.6.2
 pyenv global 2.7.11
