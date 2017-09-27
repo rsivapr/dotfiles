@@ -61,7 +61,14 @@ battery_status() {
   fi
 }
 
-export PROMPT=$'\n$(battery_status)in $(directory_name) $(git_dirty)$(need_push)\n› '
+virtualenv_prompt_info() {
+    if [ -n "$VIRTUAL_ENV" ]; then
+        local name=$(basename $VIRTUAL_ENV)
+        echo "%{$fg_bold[blue]%}($name)%{$reset_color%}"
+    fi
+}
+
+export PROMPT=$'\n$(battery_status)in $(directory_name) $(git_dirty)$(need_push)$(virtualenv_prompt_info)\n› '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }

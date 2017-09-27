@@ -11,5 +11,5 @@ pip install --upgrade virtualenv
 pip install --upgrade ansible
 pip install --upgrade awscli
 pip install --upgrade flake8
-pip install --upgrade virtualenvwrapper
+pip install --upgrade virtalenvwrapper
 pip install --upgrade yapf

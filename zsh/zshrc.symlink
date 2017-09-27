@@ -28,10 +28,6 @@ do
   source $file
 done
 
-# install virtualenv
-export WORKON_HOME=~/Envs
-source $HOME/bin/virtualenvwrapper.sh
-
 # initialize autocomplete here, otherwise functions won't be loaded
 autoload -U compinit
 compinit
@@ -43,6 +39,11 @@ do
 done
 
 unset config_files
+
+# setup virtualenv, virtualenvwrapper, and pipenv
+export WORKON_HOME=~/Envs
+source $HOME/bin/virtualenvwrapper.sh
+which pipenv 2>&1 >/dev/null && eval "$(_PIPENV_COMPLETE=source-zsh pipenv)"
 
 # Better history
 # Credits to https://coderwall.com/p/jpj_6q/zsh-better-history-searching-with-arrow-keys
