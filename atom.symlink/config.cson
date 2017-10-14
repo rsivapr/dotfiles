@@ -4,9 +4,8 @@
       beautify_on_save: true
     css:
       beautify_on_save: true
-    general:
-      beautifyEntireFileOnSave: false
-    html: {}
+    html:
+      beautify_on_save: true
     js:
       disabled: true
     jsx:
