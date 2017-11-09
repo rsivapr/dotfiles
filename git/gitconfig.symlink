@@ -3,6 +3,8 @@
         path = ~/.gitconfig.local
 [hub]
         protocol = https
+[alias]
+        branch-name = "!git rev-parse --abbrev-ref HEAD"
 [color]
         ui = always
         branch = auto
