@@ -1,7 +1,9 @@
 atom-beautify
 autocomplete-python
 file-icons
+language-docker
 linter
+linter-docker
+linter-flake8
 linter-pylint
 python-tools
-language-docker
