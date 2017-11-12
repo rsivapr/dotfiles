@@ -1,18 +1,20 @@
 "*":
   "atom-beautify":
     crystal:
-      beautify_on_save: true
+      beautify_on_save: false
     css:
-      beautify_on_save: true
+      beautify_on_save: false
+    general:
+      beautifyEntireFileOnSave: false
     html:
-      beautify_on_save: true
+      beautify_on_save: false
     js:
       disabled: true
     jsx:
       disabled: true
     markdown: {}
     nginx:
-      beautify_on_save: true
+      beautify_on_save: false
     python:
       default_beautifier: "yapf"
     ruby:
