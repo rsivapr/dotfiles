@@ -42,7 +42,7 @@ unset config_files
 
 # setup virtualenv, virtualenvwrapper, and pipenv
 export WORKON_HOME=~/Envs
-source $HOME/bin/virtualenvwrapper.sh
+source /usr/local/bin/virtualenvwrapper.sh
 which pipenv 2>&1 >/dev/null && eval "$(_PIPENV_COMPLETE=source-zsh pipenv)"
 
 # Better history

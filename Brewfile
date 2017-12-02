@@ -1,10 +1,12 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
+tap 'codeclimate/formulae'
 
 brew 'ack'
 brew 'direnv'
 brew 'doctl'
+brew 'codeclimate'
 brew 'coreutils'
 brew 'go'
 brew 'jq'

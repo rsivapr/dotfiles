@@ -44,4 +44,4 @@ alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C
 alias gbrowse='gitit'
 
 # Local Cleanup
-alias gcup='gup && gpub && git-local-cleanup'
+alias gcup='gup && git-local-cleanup'
