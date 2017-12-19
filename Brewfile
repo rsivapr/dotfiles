@@ -13,7 +13,7 @@ brew 'jq'
 brew 'libgit2'
 brew 'openssl'
 brew 'node'
-brew 'pyenv'
+brew 'python3'
 brew 'unrar'
 brew 'wget'
 
