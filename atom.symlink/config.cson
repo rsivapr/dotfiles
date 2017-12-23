@@ -31,7 +31,7 @@
       "background-tips"
       "exception-reporting"
       "metrics"
-      "linter-pylint"
+      "linter"
     ]
     followSymlinks: false
     hideGitIgnoredFiles: true
