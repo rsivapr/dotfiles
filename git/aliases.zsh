@@ -45,3 +45,6 @@ alias gbrowse='gitit'
 
 # Local Cleanup
 alias gcup='gup && git-local-cleanup'
+
+# Undo
+alias gundo='git-undo'

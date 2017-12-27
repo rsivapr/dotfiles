@@ -7,7 +7,7 @@ alias di='docker images'
 alias drmi='docker rmi'
 alias dbu='docker build'
 alias drmi-all='docker rmi $* $(docker images -a -q)'
-alias drmi-dang='docker rmi $* $(docker images -q -f "dangling=true")'
+alias drmi-dang='docker rmi $* $(docker images -q -f "dangling=true") --force'
 
 # Containers
 
@@ -69,6 +69,11 @@ d-stop() {
 d-zsh() {
   local TAG=$1
   docker run -v /tmp:/host_tmp:rw -i -t $TAG /bin/zsh
+}
+
+d-bash() {
+  local TAG=$1
+  docker run -v /tmp:/host_tmp:rw -i -t $TAG /bin/bash
 }
 
 dps-monitor() {
