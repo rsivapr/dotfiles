@@ -5,3 +5,4 @@ language-docker
 linter
 linter-docker
 linter-flake8
+linter-pydocstyle
