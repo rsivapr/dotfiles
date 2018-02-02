@@ -13,6 +13,7 @@ brew 'openssl'
 brew 'node'
 brew 'python3'
 brew 'unrar'
+brew 'tmux'
 brew 'wget'
 
 cask '1password'
