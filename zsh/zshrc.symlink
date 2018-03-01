@@ -40,8 +40,8 @@ done
 
 unset config_files
 
-# setup pipenv and pew
-which pipenv 2>&1 >/dev/null && eval "$(_PIPENV_COMPLETE=source-zsh pipenv)"
+# setup pyenv and pew
+eval "$(pyenv init -)"
 source $(pew shell_config)
 
 # Better history

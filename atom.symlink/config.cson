@@ -48,12 +48,16 @@
     fontFamily: "Menlo"
     fontSize: 15
     invisibles: {}
+    preferredLineLength: 100
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
   "go-plus":
     panelDisplayMode: "closed"
   "linter-eslint":
     useGlobalEslint: true
+  "linter-flake8":
+    maxLineLength: 100
+  "linter-pydocstyle": {}
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
