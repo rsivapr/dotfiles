@@ -1,5 +1,7 @@
 atom-beautify
 atom-ide-ui
+ide-go
+ide-python
 file-icons
 language-docker
 linter
