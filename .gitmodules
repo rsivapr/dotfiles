@@ -1,23 +1,23 @@
 [submodule "vim/vim.symlink/bundle/nerdtree"]
 	path = vim/vim.symlink/bundle/nerdtree
-    url = https://github.com/scrooloose/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
 [submodule "vim/vim.symlink/bundle/tabular"]
 	path = vim/vim.symlink/bundle/tabular
-    url = https://github.com/godlygeek/tabular.git
+	url = https://github.com/godlygeek/tabular.git
 [submodule "vim/vim.symlink/bundle/vim-colors-solarized"]
 	path = vim/vim.symlink/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "vim/vim.symlink/bundle/vim-endwise"]
 	path = vim/vim.symlink/bundle/vim-endwise
-    url = https://github.com/tpope/vim-endwise.git
+	url = https://github.com/tpope/vim-endwise.git
 [submodule "vim/vim.symlink/bundle/vim-fugitive"]
 	path = vim/vim.symlink/bundle/vim-fugitive
-    url = https://github.com/tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "vim/vim.symlink/bundle/vim-less"]
 	path = vim/vim.symlink/bundle/vim-less
-    url = https://github.com/groenewege/vim-less.git
+	url = https://github.com/groenewege/vim-less.git
 [submodule "vim/vim.symlink/bundle/vim-indent-lines"]
-    path = vim/vim.symlink/bundle/vim-indent-lines
+	path = vim/vim.symlink/bundle/vim-indent-lines
 	url = https://github.com/Yggdroot/indentLine.git
 [submodule "vim/vim.symlink/bundle/vim-go"]
 	path = vim/vim.symlink/bundle/vim-go
@@ -28,9 +28,6 @@
 [submodule "vim/vim.symlink/bundle/vim-toml"]
 	path = vim/vim.symlink/bundle/vim-toml
 	url = https://github.com/cespare/vim-toml.git
-[submodule "vim/vim.symlink/bundle/vim-systemd"]
-	path = vim/vim.symlink/bundle/vim-systemd
-	url = git://fedorapeople.org/home/fedora/wwoods/public_git/vim-scripts.git
 [submodule "vim/vim.symlink/bundle/vim-better-whitespace"]
 	path = vim/vim.symlink/bundle/vim-better-whitespace
 	url = https://github.com/ntpeters/vim-better-whitespace.git
@@ -79,9 +76,6 @@
 [submodule "vim/vim.symlink/bundle/vim-airline-themes"]
 	path = vim/vim.symlink/bundle/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
-[submodule "vim/vim.symlink/bundle/linuxsty.vim"]
-	path = vim/vim.symlink/bundle/linuxsty.vim
-	url = https://github.com/vivien/vim-linux-coding-style.git
 [submodule "vim/vim.symlink/bundle/vim-pug"]
 	path = vim/vim.symlink/bundle/vim-pug
 	url = https://github.com/digitaltoad/vim-pug.git

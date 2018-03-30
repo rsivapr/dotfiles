@@ -23,6 +23,7 @@ brew 'unrar'
 brew 'tldr'
 brew 'tmux'
 brew 'wget'
+brew 'vim'
 
 cask '1password'
 cask 'alfred'
