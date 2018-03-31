@@ -40,9 +40,12 @@ done
 
 unset config_files
 
-# setup pyenv and pew
+# setup pyenv and virtualenv
 eval "$(pyenv init -)"
-source $(pew shell_config)
+eval "$(pyenv virtualenv-init -)"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+export WORKON_HOME=$HOME/.virtualenvs
 
 # Better history
 # Credits to https://coderwall.com/p/jpj_6q/zsh-better-history-searching-with-arrow-keys

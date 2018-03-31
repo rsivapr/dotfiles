@@ -6,7 +6,7 @@ pyenv global 3.6.4
 eval "$(pyenv init -)"
 
 # Install utility packages
-pip3 install --upgrade pew
+pip3 install --upgrade virtualenv
 pip3 install --upgrade pipenv
 pip3 install --upgrade ansible
 pip3 install --upgrade awscli
