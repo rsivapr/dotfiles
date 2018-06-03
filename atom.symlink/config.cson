@@ -55,6 +55,11 @@
     softWrapAtPreferredLineLength: true
   "go-plus":
     panelDisplayMode: "closed"
+    test:
+      coverageHighlightMode: "disabled"
+      runTestsOnSave: false
+      runTestsWithCoverage: false
+      runTestsWithShortFlag: false
   "ide-python":
     pylsPlugins:
       jedi_hover:
