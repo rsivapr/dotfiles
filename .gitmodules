@@ -79,3 +79,6 @@
 [submodule "vim/vim.symlink/bundle/vim-pug"]
 	path = vim/vim.symlink/bundle/vim-pug
 	url = https://github.com/digitaltoad/vim-pug.git
+[submodule "vim/vim.symlink/bundle/dracula-theme"]
+	path = vim/vim.symlink/bundle/dracula-theme
+	url = git@github.com:dracula/vim.git
