@@ -14,5 +14,4 @@ pip3 install --upgrade twine
 pip3 install --upgrade pyyaml
 pip3 install --upgrade black
 pip3 install --upgrade pycodestyle
-pip3 install --upgrade yapf
 pip3 install --upgrade python-language-server
