@@ -59,3 +59,6 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 
 # direnv setup
 eval "$(direnv hook zsh)"
+
+# autojump
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
