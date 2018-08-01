@@ -3,7 +3,7 @@ pyenv install 3.7.0
 pyenv install 3.6.6
 pyenv install 3.4.3
 pyenv install 2.7.14
-pyenv global 3.7.0
+pyenv global 3.6.6
 eval "$(pyenv init -)"
 
 # Install utility packages
