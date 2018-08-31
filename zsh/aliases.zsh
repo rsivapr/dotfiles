@@ -6,11 +6,11 @@ alias cls='clear' # Good 'ol Clear Screen command
 alias dl="cd ~/Downloads"
 alias h="history"
 
-# List all files colorized in long format
-alias l="ls -lF -G"
-
-# List all files colorized in long format, including dot files
-alias la="ls -laF -G"
-
-# List only directories
-alias lsd="ls -lF -G | grep --color=never '^d'"
+alias cat="bat"
+alias ls="exa"
+alias la="exa -laF -G"
+alias help='tldr'
+alias top="sudo htop" # alias top and fix high sierra bug
+alias preview="fzf --preview 'bat --color \"always\" {}'"
+# add support for ctrl+o to open selected file in VS Code
+export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"

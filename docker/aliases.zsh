@@ -73,7 +73,7 @@ d-zsh() {
 
 d-bash() {
   local TAG=$1
-  docker run -v /tmp:/host_tmp:rw -i -t $TAG /bin/bash
+  docker run --entrypoint /bin/bash -v /tmp:/host_tmp:rw -i -t $TAG
 }
 
 dps-monitor() {
