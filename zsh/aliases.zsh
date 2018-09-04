@@ -10,6 +10,7 @@ alias cat="bat"
 alias ls="exa"
 alias la="exa -laF -G"
 alias help='tldr'
+alias rg='rg -i'
 alias top="sudo htop" # alias top and fix high sierra bug
 alias preview="fzf --preview 'bat --color \"always\" {}'"
 # add support for ctrl+o to open selected file in VS Code
