@@ -64,3 +64,5 @@ cask 'zoomus'
 
 cask 'workflowy'
 cask 'moom'
+cask 'bartender'
+cask 'cdock'

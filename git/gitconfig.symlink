@@ -42,3 +42,6 @@
         default = simple
 [status]
 	submoduleSummary = true
+[user]
+	name = Rohit Sivaprasad
+	email = rohit.sprasad@gmail.com
