@@ -1,4 +1,5 @@
 {
     "window.zoomLevel": 1,
-    "editor.cursorStyle": "block-outline"
+    "editor.cursorStyle": "block-outline",
+    "git.autofetch": true
 }
